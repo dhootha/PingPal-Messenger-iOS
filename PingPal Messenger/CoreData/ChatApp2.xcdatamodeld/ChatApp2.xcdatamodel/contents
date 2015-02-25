@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CFacebook" representedClassName="CFacebook" syncable="YES">
+        <attribute name="fbid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageFileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="friend" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Friend" inverseName="facebook" inverseEntity="Friend" syncable="YES"/>
+    </entity>
+    <entity name="Contacts" representedClassName="Contacts" syncable="YES">
+        <attribute name="imageFileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="friend" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Friend" inverseName="contact" inverseEntity="Friend" syncable="YES"/>
+    </entity>
+    <entity name="DeletedFriend" representedClassName="DeletedFriend" syncable="YES">
+        <relationship name="theFriend" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Friend" inverseName="deletedFriend" inverseEntity="Friend" syncable="YES"/>
+    </entity>
+    <entity name="DeletedGroup" representedClassName="DeletedGroup" syncable="YES">
+        <relationship name="theGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group" inverseName="deletedGroup" inverseEntity="Group" syncable="YES"/>
+    </entity>
+    <entity name="DoNotNotify" representedClassName="DoNotNotify" syncable="YES">
+        <relationship name="doNotNotifyMembers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Friend" inverseName="doNotNotify" inverseEntity="Friend" syncable="YES"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group" inverseName="doNotNotify" inverseEntity="Group" syncable="YES"/>
+    </entity>
+    <entity name="Friend" representedClassName="Friend" syncable="YES">
+        <attribute name="pingAccess" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="contact" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Contacts" inverseName="friend" inverseEntity="Contacts" syncable="YES"/>
+        <relationship name="deletedFriend" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DeletedFriend" inverseName="theFriend" inverseEntity="DeletedFriend" syncable="YES"/>
+        <relationship name="doNotNotify" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DoNotNotify" inverseName="doNotNotifyMembers" inverseEntity="DoNotNotify" syncable="YES"/>
+        <relationship name="facebook" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="CFacebook" inverseName="friend" inverseEntity="CFacebook" syncable="YES"/>
+        <relationship name="groups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Group" inverseName="members" inverseEntity="Group" syncable="YES"/>
+        <relationship name="thread" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Thread" inverseName="friend" inverseEntity="Thread" syncable="YES"/>
+    </entity>
+    <entity name="Group" representedClassName="Group" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notifyMe" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="deletedGroup" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DeletedGroup" inverseName="theGroup" inverseEntity="DeletedGroup" syncable="YES"/>
+        <relationship name="doNotNotify" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DoNotNotify" inverseName="group" inverseEntity="DoNotNotify" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Friend" inverseName="groups" inverseEntity="Friend" syncable="YES"/>
+        <relationship name="thread" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Thread" inverseName="group" inverseEntity="Thread" syncable="YES"/>
+    </entity>
+    <entity name="Message" representedClassName="Message" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="senderTag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="thread" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Thread" inverseName="messages" inverseEntity="Thread" syncable="YES"/>
+    </entity>
+    <entity name="Thread" representedClassName="Thread" syncable="YES">
+        <attribute name="unread" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="friend" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Friend" inverseName="thread" inverseEntity="Friend" syncable="YES"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group" inverseName="thread" inverseEntity="Group" syncable="YES"/>
+        <relationship name="messages" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Message" inverseName="thread" inverseEntity="Message" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CFacebook" positionX="0" positionY="0" width="128" height="118"/>
+        <element name="Contacts" positionX="0" positionY="0" width="128" height="103"/>
+        <element name="DeletedFriend" positionX="0" positionY="0" width="128" height="60"/>
+        <element name="DeletedGroup" positionX="0" positionY="0" width="128" height="60"/>
+        <element name="DoNotNotify" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="Friend" positionX="0" positionY="0" width="128" height="165"/>
+        <element name="Group" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="Message" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="Thread" positionX="0" positionY="0" width="128" height="105"/>
+    </elements>
+</model>

@@ -1,0 +1,54 @@
+/* 
+  Localizable.strings
+  PingPal Messenger
+
+  Created by André Hansson on 2014-03-12.
+  Copyright (c) 2014 PingPal AB. All rights reserved.
+*/
+
+//"KEY" = "Value";
+
+"Yes" = "Yes";
+"No" = "No";
+"AlwaysYes" = "Always yes";
+"AlwaysNo" = "Always no";
+"Cancel" = "Cancel";
+"Done" = "Done";
+"Next" = "Next";
+"Delete" = "Delete";
+"Leave" = "Leave";
+
+"FriendsSection" = "Friends";
+"DeletedFriendsSection" = "Deleted friends";
+"GroupsSection" = "Groups";
+"NotMemberGroupsSection" = "Not member in groups";
+
+"SendButtonSendTitle" = "Send";
+"SendButtonCancelTitle" = "Cancel";
+
+"iconSentPushText" = "%@ sent an icon";
+"iconSentText" = "sent an icon";
+
+"locationSentText" = "sent their location";
+"pingPushText" = "%@ wants your position";
+"pingAlertText" = "wants your position";
+
+"Allow?" = "Allow?";
+
+// Facebook
+"LoggedInAs" = "You're logged in as:";
+"NotLoggedIn" = "You're not logged in!";
+
+// Intro
+"StartWelcome" = "Welcome to PingPal Messenger";
+"StartText" = "A secure and fast messaging app";
+"GetStarted" = "Get started";
+
+"Page1Title" = "Ping";
+"Page1Text" = "Ping your friends to get their position";
+
+"Page2Title" = "Groups";
+"Page2Text" = "Chat and ping groups of people";
+
+"Page3Title" = "Sign in";
+"Page3Text" = "Sign in with Facebook to begin";

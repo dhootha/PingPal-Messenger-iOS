@@ -1,0 +1,54 @@
+/* 
+  Localizable.strings
+  PingPal Messenger
+
+  Created by André Hansson on 2014-03-12.
+  Copyright (c) 2014 PingPal AB. All rights reserved.
+*/
+
+//"KEY" = "Value";
+
+"Yes" = "Ja";
+"No" = "Nej";
+"AlwaysYes" = "Alltid ja";
+"AlwaysNo" = "Alltid nej";
+"Cancel" = "Avbryt";
+"Done" = "Klar";
+"Next" = "Nästa";
+"Delete" = "Ta bort";
+"Leave" = "Lämna";
+
+"FriendsSection" = "Vänner";
+"DeletedFriendsSection" = "Borttagna vänner";
+"GroupsSection" = "Grupper";
+"NotMemberGroupsSection" = "Inte medlem i grupper";
+
+"SendButtonSendTitle" = "Skicka";
+"SendButtonCancelTitle" = "Avbryt";
+
+"iconSentPushText" = "%@ skickade en ikon";
+"iconSentText" = "skickade en ikon";
+
+"locationSentText" = "skickade sin position";
+"pingPushText" = "%@ vill veta din position";
+"pingAlertText" = "vill veta din position";
+
+"Allow?" = "Godkänn?";
+
+// Facebook
+"LoggedInAs" = "Du är inloggad som:";
+"NotLoggedIn" = "Du är inte inloggad!";
+
+// Intro
+"StartWelcome" = "Välkommen till PingPal Messenger";
+"StartText" = "En säker och snabb messaging app";
+"GetStarted" = "Börja";
+
+"Page1Title" = "Ping";
+"Page1Text" = "Pinga dina vänner för att få deras position";
+
+"Page2Title" = "Grupper";
+"Page2Text" = "Chatta och pinga grupper av vänner";
+
+"Page3Title" = "Logga in";
+"Page3Text" = "Logga in med Facebook för att börja";

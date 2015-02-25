@@ -1,0 +1,183 @@
+
+/* Class = "IBUISegmentedControl"; 1Vp-71-642.segmentTitles[0] = "Always yes"; ObjectID = "1Vp-71-642"; */
+"1Vp-71-642.segmentTitles[0]" = "Alltid ja";
+
+/* Class = "IBUISegmentedControl"; 1Vp-71-642.segmentTitles[1] = "Ask"; ObjectID = "1Vp-71-642"; */
+"1Vp-71-642.segmentTitles[1]" = "Fråga";
+
+/* Class = "IBUISegmentedControl"; 1Vp-71-642.segmentTitles[2] = "Always no"; ObjectID = "1Vp-71-642"; */
+"1Vp-71-642.segmentTitles[2]" = "Alltid nej";
+
+/* Class = "IBUIButton"; normalTitle = "Join"; ObjectID = "2dV-vB-AIE"; */
+"2dV-vB-AIE.normalTitle" = "Gå med";
+
+/* Class = "IBUILabel"; text = "Messages"; ObjectID = "30d-V4-dro"; */
+"30d-V4-dro.text" = "Meddelanden";
+
+/* Class = "IBUIBarButtonItem"; title = "Notify"; ObjectID = "3TL-xF-GUQ"; */
+"3TL-xF-GUQ.title" = "Notifiera";
+
+/* Class = "IBUILabel"; text = "Simple password"; ObjectID = "5nG-No-UrL"; */
+"5nG-No-UrL.text" = "Simple password";
+
+/* Class = "IBUILabel"; text = "Friends"; ObjectID = "5sS-lx-3TI"; */
+"5sS-lx-3TI.text" = "Vänner";
+
+/* Class = "IBUILabel"; text = "Name Placeholder"; ObjectID = "62N-rU-3bv"; */
+"62N-rU-3bv.text" = "Name Placeholder";
+
+/* Class = "IBUILabel"; text = "Create new group"; ObjectID = "62s-w4-4LI"; */
+"62s-w4-4LI.text" = "Skapa ny grupp";
+
+/* Class = "IBUINavigationItem"; title = "Groups"; ObjectID = "6Fy-pT-Uxb"; */
+"6Fy-pT-Uxb.title" = "Grupper";
+
+/* Class = "IBUILabel"; text = "Status Placeholder"; ObjectID = "7cj-ch-Sym"; */
+"7cj-ch-Sym.text" = "Status Placeholder";
+
+/* Class = "IBUILabel"; text = "Groups"; ObjectID = "Ags-Ku-myi"; */
+"Ags-Ku-myi.text" = "Grupper";
+
+/* Class = "IBUILabel"; text = "We will never post anything"; ObjectID = "AnM-vI-NdO"; */
+"AnM-vI-NdO.text" = "We will never post anything";
+
+/* Class = "IBUILabel"; text = "Messenger"; ObjectID = "CeB-Es-NCN"; */
+"CeB-Es-NCN.text" = "Messenger";
+
+/* Class = "IBUILabel"; text = "Name Placeholder"; ObjectID = "DSt-2h-6XV"; */
+"DSt-2h-6XV.text" = "Name Placeholder";
+
+/* Class = "IBUINavigationItem"; title = "Friends"; ObjectID = "DUs-PR-mH4"; */
+"DUs-PR-mH4.title" = "Vänner";
+
+/* Class = "IBUILabel"; text = "More settings"; ObjectID = "FL4-Le-F0p"; */
+"FL4-Le-F0p.text" = "More settings";
+
+/* Class = "IBUINavigationItem"; title = "Map"; ObjectID = "Fia-om-4FE"; */
+"Fia-om-4FE.title" = "Map";
+
+/* Class = "IBUIBarButtonItem"; title = "Back"; ObjectID = "GG4-gW-P3h"; */
+"GG4-gW-P3h.title" = "Tillbaka";
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "IgW-7Y-3dJ"; */
+"IgW-7Y-3dJ.title" = "Inställningar";
+
+/* Class = "IBUITextField"; placeholder = "Group name"; ObjectID = "Jwm-qR-ooc"; */
+"Jwm-qR-ooc.placeholder" = "Grupp namn";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "M3o-NX-PS9"; */
+"M3o-NX-PS9.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Oho-I0-5hD"; */
+"Oho-I0-5hD.text" = "Label";
+
+/* Class = "IBUILabel"; text = "55"; ObjectID = "P2X-cO-d5s"; */
+"P2X-cO-d5s.text" = "55";
+
+/* Class = "IBUINavigationItem"; title = "Groups"; ObjectID = "Tsf-QV-jGB"; */
+"Tsf-QV-jGB.title" = "Grupper";
+
+/* Class = "IBUILabel"; text = "Manage ping access"; ObjectID = "V3O-5t-Fdg"; */
+"V3O-5t-Fdg.text" = "Hantera ping åtkomst";
+
+/* Class = "IBUILabel"; text = "Settings"; ObjectID = "WUg-It-Rjm"; */
+"WUg-It-Rjm.text" = "Inställningar";
+
+/* Class = "IBUINavigationItem"; title = "Manage notify"; ObjectID = "WVU-XL-Q4x"; */
+"WVU-XL-Q4x.title" = "Hantera notifieringar";
+
+/* Class = "IBUINavigationItem"; title = "Manage groups"; ObjectID = "XaD-Md-GUc"; */
+"XaD-Md-GUc.title" = "Hantera grupper";
+
+/* Class = "IBUILabel"; text = "Name Placeholder"; ObjectID = "Xze-wX-RdG"; */
+"Xze-wX-RdG.text" = "Name Placeholder";
+
+/* Class = "IBUINavigationItem"; title = "Chat"; ObjectID = "a7b-Bl-KIT"; */
+"a7b-Bl-KIT.title" = "Chat";
+
+/* Class = "IBUINavigationItem"; title = "Manage ping access"; ObjectID = "anf-QW-w7m"; */
+"anf-QW-w7m.title" = "Hantera ping åtkomst";
+
+/* Class = "IBUILabel"; text = "Name Placeholder"; ObjectID = "bqK-Fq-h7Q"; */
+"bqK-Fq-h7Q.text" = "Name Placeholder";
+
+/* Class = "IBUILabel"; text = "Manage groups"; ObjectID = "cIh-Xp-iV9"; */
+"cIh-Xp-iV9.text" = "Hantera grupper";
+
+/* Class = "IBUILabel"; text = "Change password"; ObjectID = "dop-7W-eBe"; */
+"dop-7W-eBe.text" = "Change password";
+
+/* Class = "IBUILabel"; text = "Name Placeholder"; ObjectID = "eKI-yx-hnF"; */
+"eKI-yx-hnF.text" = "Name Placeholder";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "h0y-ZI-KpC"; */
+"h0y-ZI-KpC.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Name Placeholder"; ObjectID = "hbF-gs-OdZ"; */
+"hbF-gs-OdZ.text" = "Name Placeholder";
+
+/* Class = "IBUILabel"; text = "Aktivate password"; ObjectID = "hjq-tC-Cxl"; */
+"hjq-tC-Cxl.text" = "Aktivate password";
+
+/* Class = "IBUINavigationItem"; title = "Do not notify"; ObjectID = "hul-Kv-hMI"; */
+"hul-Kv-hMI.title" = "Notifiera inte";
+
+/* Class = "IBUINavigationItem"; title = "Notify"; ObjectID = "ibZ-f0-Khu"; */
+"ibZ-f0-Khu.title" = "Notifiera";
+
+/* Class = "IBUILabel"; text = "Last time placeholder"; ObjectID = "jID-Pa-Ebi"; */
+"jID-Pa-Ebi.text" = "Last time placeholder";
+
+/* Class = "IBUIButton"; normalTitle = "Restore"; ObjectID = "keA-kL-BGL"; */
+"keA-kL-BGL.normalTitle" = "Återställ";
+
+/* Class = "IBUILabel"; text = "A simple password is a 4-digit number"; ObjectID = "n6I-Sw-Oxe"; */
+"n6I-Sw-Oxe.text" = "A simple password is a 4-digit number";
+
+/* Class = "IBUINavigationItem"; title = "Friends"; ObjectID = "obU-kr-g3j"; */
+"obU-kr-g3j.title" = "Vänner";
+
+/* Class = "IBUILabel"; text = "Last message placeholder"; ObjectID = "qRI-UG-TUv"; */
+"qRI-UG-TUv.text" = "Last message placeholder";
+
+/* Class = "IBUILabel"; text = "Nothing here works yet"; ObjectID = "qVQ-7t-GIR"; */
+"qVQ-7t-GIR.text" = "Nothing here works yet";
+
+/* Class = "IBUIButton"; normalTitle = "Create"; ObjectID = "qZ5-5G-2Vr"; */
+"qZ5-5G-2Vr.normalTitle" = "Skapa";
+
+/* Class = "IBUILabel"; text = "Last message placeholder"; ObjectID = "qyk-C9-ES6"; */
+"qyk-C9-ES6.text" = "Last message placeholder";
+
+/* Class = "IBUILabel"; text = "Name Placeholder"; ObjectID = "uWF-lU-cdb"; */
+"uWF-lU-cdb.text" = "Name Placeholder";
+
+/* Class = "IBUINavigationItem"; title = "Chat"; ObjectID = "ufb-vy-dxX"; */
+"ufb-vy-dxX.title" = "Chat";
+
+/* Class = "IBUINavigationItem"; title = "Messages"; ObjectID = "uyd-I4-xfK"; */
+"uyd-I4-xfK.title" = "Meddelanden";
+
+/* Class = "IBUILabel"; text = "Name Placeholder"; ObjectID = "v5o-rG-VU0"; */
+"v5o-rG-VU0.text" = "Name Placeholder";
+
+/* Class = "IBUILabel"; text = "Last time placeholder"; ObjectID = "vAD-PF-7Li"; */
+"vAD-PF-7Li.text" = "Last time placeholder";
+
+/* Class = "IBUINavigationItem"; title = "Facebook"; ObjectID = "wCJ-Yh-ewb"; */
+"wCJ-Yh-ewb.title" = "Facebook";
+
+/* Class = "IBUINavigationItem"; title = "Contacts"; ObjectID = "wVC-wN-1A6"; */
+"wVC-wN-1A6.title" = "Kontakter";
+
+/* Class = "IBUILabel"; text = "Facebook"; ObjectID = "wYl-0v-zY0"; */
+"wYl-0v-zY0.text" = "Facebook";
+
+/* Class = "IBUILabel"; text = "Contacts"; ObjectID = "wdd-ue-ign"; */
+"wdd-ue-ign.text" = "Kontakter";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "xdU-GO-n6K"; */
+"xdU-GO-n6K.text" = "Label";
+
+/* Class = "IBUILabel"; text = "55"; ObjectID = "zAW-7c-taV"; */
+"zAW-7c-taV.text" = "55";
